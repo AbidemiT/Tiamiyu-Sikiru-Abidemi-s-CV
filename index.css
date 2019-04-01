@@ -142,6 +142,16 @@ hr {
   height: 200px;
 }
 
+.sp {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+.project > a {
+font-weight: 600;
+}
+
 
 @media all and (max-width: 900px) {
   .name {
